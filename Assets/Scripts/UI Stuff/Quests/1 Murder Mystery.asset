@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fdfa587d07dca479d351bab3b4651c, type: 3}
+  m_Name: 1 Murder Mystery
+  m_EditorClassIdentifier: 
+  Title: Murder Mystery
+  Description: A nobleman's house has burnt down, killing him. Find out why it burnt
+    down and bring the perpetrator to justice.
+  Goal: -Find the arsonist.
+  DescriptionHint1: 
+  DescriptionHint2: 
+  DescriptionHint3: 
+  DescriptionHint4: 
