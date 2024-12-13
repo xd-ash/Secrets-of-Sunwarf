@@ -1,14 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteractUI : MonoBehaviour
 {
    [SerializeField] private GameObject containerGameObject;
-   [SerializeField] private PlayerInteract playerInteract;
+   public PlayerInteract playerInteract;
+   public GameObject player;
 
-   private void Update()
+
+    private void Awake()
+    {
+        if (containerGameObject == null)
+        {
+            containerGameObject = GameObject.FindGameObjectWithTag("InteractButton");
+            containerGameObject.SetActive(false);
+        }
+    }
+
+    private void Update()
    {
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            playerInteract = player.GetComponent<PlayerInteract>();
+        }
         if (playerInteract.getInteractableObject() != null  ||playerInteract.getInteractableObject2() != null  ) 
         {
             Show();

@@ -9,7 +9,6 @@ public class SceneLoader : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Interactable!");
         if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneName);

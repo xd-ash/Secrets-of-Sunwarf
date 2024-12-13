@@ -61,19 +61,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\Dialogue Node Base.cs" />
+    <Compile Include="Assets\RunemarkStudio\Common\UIColorAnimator.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\QuestManager.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\ItemInteract.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\Controls.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\Quest Panel.cs" />
+    <Compile Include="Assets\RunemarkStudio\Common\CustomInspectorBase.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\End NPC Node.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Assembly thing\Dialogue Graph.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\Quest End NPC.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\NPC Dialogue.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\Response Dialogue.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\NPC Conversation.cs" />
+    <Compile Include="Assets\Scripts\UI Stuff\MoveCam.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\CoreScripts\Core Node.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\Dialogue Scripts\Quest NPC Dialogue.cs" />
+    <Compile Include="Assets\RunemarkStudio\Common\WindowBaseUI.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\Quests\Quest SO.cs" />
+    <Compile Include="Assets\Scripts\UI Stuff\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\XNode Scripts\CoreScripts\Start Node.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\PlayerInteractUI.cs" />
     <Compile Include="Assets\Scripts\UI Stuff\GameManager.cs" />
@@ -84,8 +90,10 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\EmaceArt\Slavic World Free\Plugin\Grass.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -96,6 +104,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\EmaceArt\Slavic World Free\Thanks and checkout this\Info.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

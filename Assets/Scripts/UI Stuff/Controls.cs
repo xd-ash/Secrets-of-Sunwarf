@@ -13,6 +13,13 @@ public class Controls : MonoBehaviour
     public float speed = 5f;
     private Vector2 move;
 
+    public GameObject managerHolder;
+
+    private void Awake()
+    {
+        managerHolder = GameObject.FindGameObjectWithTag("GameController");
+        gameManager = managerHolder.GetComponentInParent<GameManager>();
+    }
 
     private void Update()
     {
@@ -28,11 +35,11 @@ public class Controls : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             showMenu = !showMenu;
-            if (showMenu == true)
+            if (showMenu)
             {
                 gameManager.UpdateGameState(GameManager.GameState.Menu);
             }
-            if (showMenu == false) 
+            if (!showMenu) 
             {
                 gameManager.UpdateGameState(GameManager.GameState.Gameplay);
             }

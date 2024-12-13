@@ -16,9 +16,12 @@ public class NPCConversation : MonoBehaviour
     public GameManager gameManager;
     [SerializeField] private GameManager.QuestState qState;
     public GameObject questUnlockedItem;
+    public GameObject managerHolder;
 
     private void Awake()
     {
+        managerHolder = GameObject.FindGameObjectWithTag("GameController");
+        gameManager = managerHolder.GetComponentInParent<GameManager>();
         GameManager.OnQuestChange += OnQuestStateChange;
     }
 

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|c:\\users\\qwslo\\documents\\github\\secrets-of-sunwarf\\assets\\scripts\\ui stuff\\iteminteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\assets\\scripts\\ui stuff\\iteminteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\iteminteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|c:\\users\\qwslo\\documents\\github\\secrets-of-sunwarf\\assets\\scripts\\ui stuff\\npc conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\npc conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|c:\\users\\qwslo\\documents\\github\\secrets-of-sunwarf\\assets\\scripts\\ui stuff\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|c:\\users\\qwslo\\documents\\github\\secrets-of-sunwarf\\assets\\scripts\\ui stuff\\playerinteractui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\playerinteractui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|c:\\users\\qwslo\\documents\\github\\secrets-of-sunwarf\\assets\\scripts\\ui stuff\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\assets\\scripts\\ui stuff\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\assets\\scripts\\ui stuff\\npc conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\npc conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\assets\\scripts\\ui stuff\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8CB130-420F-1E42-CD17-AAE8D633142C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +34,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerInteractUI.cs",
               "DocumentMoniker": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\Assets\\Scripts\\UI Stuff\\PlayerInteractUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\PlayerInteractUI.cs",
               "ToolTip": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\Assets\\Scripts\\UI Stuff\\PlayerInteractUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\PlayerInteractUI.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T17:16:44.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\Assets\\Scripts\\UI Stuff\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\GameManager.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\GameManager.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAowEgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:14:55.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:14:55.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NPC Conversation.cs",
               "DocumentMoniker": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\Assets\\Scripts\\UI Stuff\\NPC Conversation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\NPC Conversation.cs",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\NPC Conversation.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAowFYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:14:52.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:14:52.784Z"
             },
             {
               "$type": "Document",
@@ -81,12 +79,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\ItemInteract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:14:38.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T17:14:38.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Controls.cs",
               "DocumentMoniker": "C:\\Users\\qwslo\\Documents\\GitHub\\Secrets-of-Sunwarf\\Assets\\Scripts\\UI Stuff\\Controls.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\Controls.cs",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\Controls.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:55:55.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:55:55.379Z"
             }
           ]
         }

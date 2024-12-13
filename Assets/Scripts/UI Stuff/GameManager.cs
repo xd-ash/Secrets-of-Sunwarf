@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,9 +16,23 @@ public class GameManager : MonoBehaviour
     public GameObject questPanel;
     public GameObject mainQuestPanel;
 
+    public string towerScene;
+    public bool towerWarp = false;
+    public string baseScene;
+    public GameObject player;
+    public GameObject interactButton;
+
+
     private void Awake()
     {
+        if (GameManager.Instance != null)
+        {
+            Destroy(this);
+        }
+
         Instance = this;
+        DontDestroyOnLoad(this);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void Start()
@@ -26,7 +41,27 @@ public class GameManager : MonoBehaviour
         mainQuestPanel.SetActive(false);
         UpdateGameState(GameState.Gameplay);
         UpdateQuestState(QuestState.Intro);
-        questMenu.SetActive(false); 
+        questMenu.SetActive(false);
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        UpdateGameState(State);
+        UpdateQuestState(questState);
+        player = GameObject.FindGameObjectWithTag("Player");
+        interactButton.SetActive(false);
+        questMenu.SetActive(false);
+
+        if (scene.name == towerScene)
+        {
+            towerWarp = true;
+        }
+
+        if (scene.name == baseScene && towerWarp)
+        {
+            player.transform.position = new Vector3(130, 2, 113);
+            towerWarp = false;
+        }
     }
 
     public void UpdateGameState(GameState newstate)
